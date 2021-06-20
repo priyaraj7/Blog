@@ -11,7 +11,7 @@ const app = express();
 
 // connect to mongodb
 const dbURI =
-  "mongodb+srv://Supriya:HnU3kDFscIKEjnGb@cluster0.azllq.mongodb.net/node-tote?retryWrites=true&w=majority";
+  "mongodb+srv://Username:Password@cluster0.azlzawlaq.mongodb.net/node-db?retryWrites=true&w=majority";
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => app.listen(3000))
